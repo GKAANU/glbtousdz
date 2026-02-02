@@ -7,8 +7,7 @@
       "title": "GLB URL",
       "type": "string",
       "description": "Public URL of the GLB file to convert (use either glbUrl or glbBase64, not both)",
-      "editor": "textfield",
-      "placeholder": "https://example.com/model.glb"
+      "editor": "textfield"
     },
     "glbBase64": {
       "title": "GLB Base64",
@@ -21,7 +20,6 @@
       "type": "string",
       "description": "Name for the output USDZ file (without extension). Default: 'output'",
       "editor": "textfield",
-      "placeholder": "output",
       "default": "output"
     }
   },
