@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "glb-to-usdz",
+  "title": "GLB to USDZ Converter",
+  "description": "Converts GLB 3D AR models to Apple USDZ format. Accepts GLB via URL or base64.",
+  "version": "0.0.1",
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./INPUT_SCHEMA.json",
+  "dockerfile": "./Dockerfile"
+}

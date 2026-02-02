@@ -1,0 +1,29 @@
+{
+  "title": "GLB to USDZ Converter",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "glbUrl": {
+      "title": "GLB URL",
+      "type": "string",
+      "description": "Public URL of the GLB file to convert (use either glbUrl or glbBase64, not both)",
+      "editor": "textfield",
+      "placeholder": "https://example.com/model.glb"
+    },
+    "glbBase64": {
+      "title": "GLB Base64",
+      "type": "string",
+      "description": "Base64-encoded GLB file content (use when you don't have a public URL)",
+      "editor": "textfield"
+    },
+    "outputFileName": {
+      "title": "Output file name",
+      "type": "string",
+      "description": "Name for the output USDZ file (without extension). Default: 'output'",
+      "editor": "textfield",
+      "placeholder": "output",
+      "default": "output"
+    }
+  },
+  "required": []
+}
